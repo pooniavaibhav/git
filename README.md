@@ -81,5 +81,7 @@ commit files using git commit command.
 as we are making changes there is a possibility that some other has also made chnges in code so use following command.
 ### git pull origin master
 here origin is the name of our remote repo and master is the branch we want to push.
-
+## Step6
+## git push origin master
+this will push the committed code to the central repo.
 
