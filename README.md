@@ -84,4 +84,31 @@ here origin is the name of our remote repo and master is the branch we want to p
 ## Step6
 ## git push origin master
 this will push the committed code to the central repo.
+## Create a branch for desired feature-
+### git branch
+this will list all the branches.
+###  git checkout branch_name
+this will switch your branch to the name provided.
+## git branch branch_name
+this will create a new branch.Now add this using git add command and then commit it using git commit -m "message" command.
+## pushing after creating or changing a branch
+### git push -u origin branch_name
+##Merge a branch
+### step1
+#### git checkout master
+we change to our master branch.
+### step2
+#### git pull origin master
+pull changes if anyone has made.
+### step3
+#### git merge branch_name
+this will merge the branches.
+#### git push origin master
+push your changes with merged branch
+#### git branch --merged
+it will show the branches merged.
+#### git push origin master
+push your merged branch back.
+
+
 
